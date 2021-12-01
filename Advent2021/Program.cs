@@ -20,7 +20,7 @@ namespace Advent2021
 
 				var tokens = s.Split('.');
 				var day = 0;
-				var parts = 0;
+				var parts = 3;
 
 				if (tokens.Length == 1)
 				{
@@ -56,9 +56,11 @@ namespace Advent2021
 					{
 						void Solve(int part)
 						{
+							Console.Write($"Part {part}: ");
+
 							try
 							{
-								Console.WriteLine($"Part {part}: " + solver.Solve(lines, part));
+								Console.WriteLine(solver.Solve(lines, part));
 							}
 							catch (NotImplementedException)
 							{

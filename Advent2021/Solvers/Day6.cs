@@ -8,12 +8,12 @@ namespace Advent2021.Solvers
 {
 	public sealed class Day6 : Solver
 	{
-		protected override string Part1(string[] lines)
+		protected override object Part1(string[] lines)
 		{
 			throw new NotImplementedException();
 		}
 
-		protected override string Part2(string[] lines)
+		protected override object Part2(string[] lines)
 		{
 			throw new NotImplementedException();
 		}
