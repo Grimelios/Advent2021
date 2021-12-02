@@ -1,2 +1,6 @@
+# Files
+*.dtbcache.v2
+
+# Folders
 bin
 obj
