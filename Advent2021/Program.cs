@@ -60,7 +60,9 @@ namespace Advent2021
 
 							try
 							{
-								Console.WriteLine(solver.Solve(lines, part));
+								var solution = solver.Solve(lines, part)?.ToString() ?? "[null]";
+
+								Console.WriteLine(solution);
 							}
 							catch (NotImplementedException)
 							{
